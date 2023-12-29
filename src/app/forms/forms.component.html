@@ -1,0 +1,93 @@
+<div class="shadow-2xl">
+    <div class="w-[670px] h-[388px] rounded-[10px] flex-col justify-start items-start inline-flex">
+        <div
+            class="w-[670px] h-[52px] px-6 py-2.5 bg-white border-b border-blue-100 justify-between items-center inline-flex">
+            <div class="text-blue-800 text-base font-normal font-['Nunito Sans'] leading-normal">
+                Add new task
+            </div>
+            <div class="w-5 h-5 relative"></div>
+        </div>
+        <div class="h-[284px] px-6 py-4 bg-white flex-col justify-start items-start gap-6 flex">
+            <div class="self-stretch h-[30px] flex-col justify-start items-start gap-1 flex">
+                <div class="text-neutral-800 text-xs font-normal font-['Nunito Sans'] leading-tight">Name of the Task
+                </div>
+                <div
+                    class="self-stretch h-11 px-3 py-1 bg-white rounded-lg border border-neutral-300 justify-between items-center inline-flex">
+                    <div class="grow shrink basis-0 h-6 justify-start items-center gap-[7px] flex">
+                        <div class="justify-start items-center gap-px flex">
+                            <div class="text-zinc-400 text-base font-normal font-['Nunito Sans'] leading-normal">
+                                <input type="text">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="self-stretch justify-start items-start gap-2.5 inline-flex">
+                <div class="grow shrink basis-0 flex-col justify-start items-start gap-1 inline-flex">
+                    <div class="text-neutral-800 text-xs font-normal font-['Nunito Sans'] leading-tight">Start date
+                    </div>
+                    <div
+                        class="self-stretch h-11 px-3 py-1 bg-white rounded-lg border border-neutral-300 justify-between items-center inline-flex">
+                        <div class="grow shrink basis-0 h-6 justify-start items-center gap-[7px] flex">
+                            <div class="justify-start items-center gap-px flex">
+                                <div class="text-zinc-400 text-base font-normal font-['Nunito Sans'] leading-normal">
+                                    <input type="date" id="datemin" name="datemin" min="2000-01-02">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-5 h-5 relative"></div>
+                    </div>
+                </div>
+                <div class="grow shrink basis-0 flex-col justify-start items-start gap-1 inline-flex">
+                    <div class="text-neutral-800 text-xs font-normal font-['Nunito Sans'] leading-tight">Deadline</div>
+                    <div
+                        class="self-stretch h-11 px-3 py-1 bg-white rounded-lg border border-neutral-300 justify-between items-center inline-flex">
+                        <div class="grow shrink basis-0 h-6 justify-start items-center gap-[7px] flex">
+                            <div class="justify-start items-center gap-px flex">
+                                <div class="text-zinc-400 text-base font-normal font-['Nunito Sans'] leading-normal">
+                                    <input type="date" id="datemin" name="datemin" min="2000-01-02">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="w-5 h-5 relative"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="self-stretch h-[68px] flex-col justify-start items-start gap-1 flex">
+                <div class="text-neutral-800 text-xs font-normal font-['Nunito Sans'] leading-tight">Status</div>
+                <div
+                    class="self-stretch h-11 px-3 py-1 bg-white rounded-lg border border-neutral-300 justify-between items-center inline-flex">
+                    <div class="grow shrink basis-0 h-6 justify-start items-center gap-[7px] flex">
+                        <div class="justify-start items-center gap-px flex">
+                            <div class="text-neutral-800 text-base font-normal font-['Nunito Sans'] leading-normal">
+                                <label></label>
+                                <select>
+                                    <option value="TV">To Do</option>
+                                    <option value="PC">In Progress</option>
+                                    <option value="GA">In Review</option>
+                                    <option value="PH">
+                                        Completed</option>
+                                </select>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="w-5 h-5 relative"></div>
+                </div>
+            </div>
+        </div>
+        <div
+            class="w-[670px] px-6 py-2.5 bg-white border-t border-blue-100 justify-end items-center gap-2.5 inline-flex">
+            <div class="w-[69px] px-2 py-2.5 bg-violet-100 rounded-lg justify-center items-center gap-1 flex">
+                <div class="px-2 justify-center items-center gap-2.5 flex">
+                    <div class="text-sky-600 text-xs font-normal font-['Nunito Sans'] leading-tight">
+                        <a routerLink="">Cancel</a></div>
+                </div>
+            </div>
+            <div class="w-[55px] px-2 py-2.5 bg-blue-600 rounded-lg justify-center items-center gap-1 flex">
+                <div class="px-2 justify-center items-center gap-2.5 flex">
+                    <div class="text-white text-xs font-normal font-['Nunito Sans'] leading-tight">Add</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
